@@ -1,0 +1,5 @@
+/.cache
+/dist
+/node_modules
+/layout
+package-lock.json

@@ -1,0 +1,56 @@
+/*======MIXINS======*/
+.regular() {
+	font-family: "Montserrat";
+	font-weight: 400;
+	line-height: 1.7rem;
+}
+
+.bold() {
+	font-family: Montserrat;
+	font-weight: 700;
+	line-height: 1.7rem;
+}
+
+.border() {
+	border: 3px solid @blockbtn;
+	border-radius: 22px;
+}
+
+.border_cont() {
+	border: 1px solid red;
+}
+
+.button() {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: @fzbtn;
+	color: @blockbtn;
+	font-weight: 700;
+	background-color: transparent;
+	.border();
+	padding: 8px 17px 8px 17px;
+	margin: 0 9px;
+}
+
+.hover() {
+	&:hover {
+		background: @linerGradient;
+		color: #fff;
+	}
+}
+
+/*======VARS FONTS======*/
+
+@fz14: 1.4rem;
+@fzbtn: 1.2rem;
+
+/*======VARS COLORS=====*/
+
+@fzcol-1: #1F204180;
+@fzcollight: #fff;
+@blockbtn: #BC9CFF;
+@linerGradient: linear-gradient(180deg, #bd9eff 0%, #8BA4F9 100%);
+
+
+/*=====BORDER RADIUS=====*/
