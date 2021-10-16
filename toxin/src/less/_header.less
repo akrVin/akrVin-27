@@ -5,9 +5,10 @@
 	&__block {
 		.block {
 			&__logo {
-				display: flex;
-				align-items: center;
+				cursor: pointer;
 				.logo {
+					display: flex;
+					align-items: center;
 					max-width: 100%;
 					&__icon {
 						display: block;
@@ -33,6 +34,9 @@
 						&-block {
 							position: relative;
 							margin: 0 1rem;
+							&:nth-child(2) {
+								margin-right: 13px;
+							}
 							&:nth-child(2) span {
 								display: inline-block;
 								width: 15px;
@@ -163,7 +167,7 @@
 				}
 			}
 			.block__buttons {
-				display: flex;
+				display: none;
 				text-align: center;
 				// .border_cont();
 				margin-left: 10px;
@@ -179,7 +183,8 @@
 				}
 			}
 			.block__actives {
-				display: none;
+				// display: none;
+				margin-left: 30px;
 				position: relative;
 				::before {
 					content: '';
@@ -188,7 +193,7 @@
 					height: 30px;
 					left: -20px;
 					top: -6px;
-					background-color: @fzcol-1;
+					background-color: #1F20411A;
 				}
 				a {
 					color: @fzcol-1;
