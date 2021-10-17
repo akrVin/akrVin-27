@@ -1,3 +1,35 @@
-footer {
-	background-color: #10ec73;
+.footer {
+	&__body {
+	}
+	&__navigation {
+	}
+	&__copirate {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		min-height: 70px;
+		background: @fzcollight;
+		&-text {
+			.copirate-text {
+				color: @fzcol-1;
+				font-size: 14px;
+			}
+		}
+		&-icons {
+			cursor: pointer;
+			.icon-twitter {
+				.icons-font();
+			}
+			.icon-facebook {
+				.icons-font();
+			}
+			.icon-instagram {
+				.icons-font();
+			}
+		}
+		
+	}
 }
+
+
+
