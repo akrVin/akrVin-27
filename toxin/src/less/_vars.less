@@ -41,8 +41,11 @@
 
 .icons-font() {
 	font-size: 24px;
+	padding: 0 10px;
 	color: @iconcolor;
-	margin: 0 10px;
+	&:hover {
+		color: darken(@iconcolor, 10%);
+	}
 }
 
 /*======VARS FONTS======*/
@@ -56,7 +59,7 @@
 @fzcollight: #fff;
 @blockbtn: #BC9CFF;
 @linerGradient: linear-gradient(180deg, #bd9eff 0%, #8BA4F9 100%);
-@iconcolor: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+@iconcolor: mix(rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
 
 // #1F20411A
 /*=====BORDER RADIUS=====*/
