@@ -18,19 +18,19 @@
 	.logo {
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		a {
-			display: block;
-		}
+		max-width: 100%;
 		&__icon {
-			margin: 0px 6.25px 0px 0px;
-			.border_cont();
-		}
-		&__toxin {
-			margin: 0px 0px 0px 6.25px;
-			.border_cont();
+			display: flex;
+			align-items: center;
+			.icon {
+				margin: 0px 7px 0px 0px;
+			}
+			.toxin {
+				margin: 0px 0px 0px 7px;
+			}
 		}
 	}
+	
 	// ===============HEADER MENU===============
 	&__menu {
 		flex: 1 1 auto;
