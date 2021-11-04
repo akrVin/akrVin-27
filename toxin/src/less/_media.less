@@ -132,6 +132,9 @@
 			align-items: center;
 			justify-content: space-between;
 			min-height: 70px;
+			.logo {
+				display: none;
+			}
 			&-text {
 				.copirate-text {
 					color: @fzcol-1;
@@ -156,6 +159,53 @@
 } //=========///=========
 
 @media (max-width: 992px) {
+	.header {
+		position: relative;
+		display: flex;
+		align-items: center;
+		min-height: 70px;
+		background: #fff;
+		// ===============HEADER BODY===============
+		&__body {
+			flex: 1 1 auto;
+			display: flex;
+			align-items: center;
+		}
+		// ================HEADER LOGO================
+		&__logo{
+			
+		}
+	
+		.logo {
+			.logo();
+		}
+		
+		// ===============HEADER MENU===============
+		&__menu {
+			flex: 1 1 auto;
+		}
+		.menu {
+			&__navigation {
+			}
+			&__burger {
+				.burger();
+			}
+			&__tab {
+				
+			}
+		}
+	// ================HEADER BUTTONS================
+		&__buttons {
+			display: none;
+		}
+		.actions {
+		display: none;
+		}
+	}
+
+
+	/*===============FOOTER===============*/
+	
 	.footer {
 		&__navigation {
 			display: none;
@@ -165,10 +215,17 @@
 		}
 		&__copirate {
 			display: flex;
+			flex-direction: column;
+			justify-content: center;
 			align-items: center;
-			justify-content: space-between;
-			min-height: 70px;
+			text-align: center;
+			padding: 120px 0px 120px 0px;
+			.logo {
+				.logo();
+				margin: 0px 0px 21px 0px;
+			}
 			&-text {
+				margin: 0px 0px 23px 0px;
 				.copirate-text {
 					color: @fzcol-1;
 					font-size: 14px;
@@ -178,12 +235,15 @@
 			&-icons {
 				._icon-twitter {
 					.icons-font();
+					font-size: 22px;	
 				}
 				._icon-facebook {
 					.icons-font();
+					font-size: 20px;
 				}
 				._icon-instagram {
 					.icons-font();
+					font-size: 22px;
 					padding-right: 0;
 				}
 			}

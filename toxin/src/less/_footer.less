@@ -29,19 +29,7 @@
 				max-width: 260px;
 			}
 			.logo {
-				display: flex;
-				align-items: center;
-				max-width: 100%;
-				&__icon {
-					display: flex;
-					align-items: center;
-					.icon {
-						margin: 0px 7px 0px 0px;
-					}
-					.toxin {
-						margin: 0px 0px 0px 7px;
-					}
-				}
+				.logo();
 			}
 				// .border_cont();
 			
@@ -121,6 +109,9 @@
 		align-items: center;
 		justify-content: space-between;
 		min-height: 70px;
+		.logo {
+			display: none;
+		}
 		&-text {
 			.copirate-text {
 				color: @fzcol-1;

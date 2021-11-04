@@ -2,7 +2,7 @@
 .header {
 	display: flex;
 	align-items: center;
-	min-height: 7rem;
+	min-height: 70px;
 	background: #fff;
 	// ===============HEADER BODY===============
 	&__body {
@@ -16,19 +16,7 @@
 	}
 
 	.logo {
-		display: flex;
-		align-items: center;
-		max-width: 100%;
-		&__icon {
-			display: flex;
-			align-items: center;
-			.icon {
-				margin: 0px 7px 0px 0px;
-			}
-			.toxin {
-				margin: 0px 0px 0px 7px;
-			}
-		}
+		.logo();
 	}
 	
 	// ===============HEADER MENU===============
@@ -40,7 +28,7 @@
 			.border_cont();
 		}
 		&__burger {
-			.burger();
+			display: none;
 		}
 		&__tab {
 			display: flex;
