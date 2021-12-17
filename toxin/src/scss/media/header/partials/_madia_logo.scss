@@ -1,0 +1,21 @@
+@mixin maxWidthLogo992 {
+    .logo {
+        min-width: 97px;
+        &__icon {
+            max-width: 35px;
+            max-height: 35px;
+        }
+    
+        // &__title {
+        // }
+    }
+}
+
+@mixin maxWidthLogo870 {
+    .logo {
+        min-width: 40px;
+        &__title {
+            display: none;
+        }
+    }
+}

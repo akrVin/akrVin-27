@@ -1,0 +1,17 @@
+@mixin maxWidthInit992 {
+    
+}
+
+@mixin maxWidthMenu767 {
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &__body {
+            display: none;
+        }
+        .burger {
+            display: block;
+        }
+    }
+}

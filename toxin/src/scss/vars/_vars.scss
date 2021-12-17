@@ -1,0 +1,27 @@
+/*=============COLORS==============*/
+
+$fontsHeaderColorLight: rgba(31, 32, 65, .5);
+$fontsHeaderColorBlack: rgba(31, 32, 65, .75);
+$borderHeaderColorLight: rgba(31, 32, 65, .1);
+$fontsModalColor: rgba(31, 32, 65, 1);
+$colorsButton: linear-gradient(180deg, rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
+$colorsBurger: linear-gradient(90deg, rgba(139, 164, 249, 1), rgba(188, 156, 255, 1));
+$colorsBurgerHover: linear-gradient(-90deg, rgba(139, 164, 249, 1), rgba(188, 156, 255, 1));
+$colorsFontButton: rgba(188, 156, 255, 1);
+$fontColorButton: rgba(188, 156, 255, 1);
+$iconFontFooter: rgba(188, 156, 255, 1);
+$colorRegtangle: rgba(31, 32, 65, .1);
+$bgModal: rgba(255, 255, 255, 1);
+
+/*============CONSTANT=============*/
+
+$contWidth: 1190px;
+$minWidth: 320px;
+$minFontMenu: 12px;
+$minFontButton: 12px;
+// font-size: calc(10 + 4 * (100vw / 1190));
+// font-size: calc(10 + 4 * ((100vw - 320px) / (1190px - 320px)));
+
+/*============CONSTANT=============*/
+
+

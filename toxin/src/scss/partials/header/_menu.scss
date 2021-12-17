@@ -1,0 +1,39 @@
+@import '_burger';
+
+.menu {
+    width: 100%;
+    flex: 1 1 auto;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__item {
+        margin: 0px 5px;
+        &:first-child {
+            margin-left: 15px;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        @include fzHeader;
+        padding: 5px;
+        color: $fontsHeaderColorLight;
+        transition: moncerratBold .3s;
+        &:hover {
+            color: $fontsHeaderColorBlack;
+            @include moncerratBold;
+            padding: 0px 3px;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
+._arrow {
+    @include arrowHeader;
+}

@@ -1,0 +1,19 @@
+@import "partials/_madia_logo";
+@import "partials/_media_menu";
+@import "partials/_madia_init";
+
+@media (max-width: 992px) {
+    @include maxWidthLogo992;
+    @include maxWidthInit992;
+}
+
+@media (max-width: 870px) {
+    @include maxWidthLogo870;
+    @include maxWidthInit870;
+}
+
+@media (max-width: 767px) {
+    // @include maxWidthBurger767;
+    @include maxWidthMenu767;
+    @include maxWidthInit767;
+}

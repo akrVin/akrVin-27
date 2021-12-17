@@ -1,0 +1,34 @@
+@import '../partials/header/_logo';
+@import '../partials/header/_menu';
+@import '../partials/header/_init';
+@import '../partials/header/_user';
+@import '../partials/modal/_modal';
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    @include borderCont;
+    z-index: 10;
+    background: #fff;
+
+    &__body {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
+/*=====================================*/
+
+/*=====================================*/
+
+/*=====================================*/
+
+
+
+
+

@@ -1,0 +1,21 @@
+html,
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+._container {
+    max-width: $contWidth;
+    padding: 0px 15px;
+    margin: 0 auto;
+    @include borderCont;
+}
+
+
+
+
+header,
+footer {
+	color: $fontsHeaderColorLight;
+}
+
+

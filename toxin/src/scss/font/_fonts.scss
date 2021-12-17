@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/*=========================ICON FONTS=========================*/
+
+@font-face {
+    font-family: 'reg';
+    src:  url('../fonts/sprite/icomoon.eot?idb7q4');
+    src:  url('../fonts/sprite/icomoon.eot?idb7q4#iefix') format('embedded-opentype'),
+          url('../fonts/sprite/icomoon.ttf?idb7q4') format('truetype'),
+          url('../fonts/sprite/icomoon.woff?idb7q4') format('woff'),
+}
+
+[class^="icon-reg"]::before, 
+[class*=" icon-reg"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'reg' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+  /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
