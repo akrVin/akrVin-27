@@ -52,16 +52,14 @@
     
 }
 
-@mixin button {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
+@mixin fzHeader {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+}
+
+@mixin bgButtonTransparent {
     color: $colorsFontButton;
     border: 2px solid $fontColorButton;
-    padding: 10px 20px;
-    margin: 0px 10px;
-    border-radius: 22px;
     background: transparent;
     transition: all .5s ease;
     &:hover {
@@ -71,11 +69,14 @@
     }
 }
 
-@mixin fzHeader {
-    font-size: 0.875rem;
-    line-height: 1.0625rem;
+@mixin bgButtonColor {
+    color: #fff;
+    background: $colorsButton;
 }
 
+@mixin buttonCards {
+    padding: 15px 20px;
+}
 
 
 

@@ -14,19 +14,78 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
-        color: darck;
+        color: $fontsModalColor;
+        margin: 0 0 20px 0;
     }
 
     &__form {
-    }
-
-    &__ {
-    }
-
-    &__button {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 20px;
     }
 
     &__question {
+    }
+}
+
+.form  {
+    input {
+        display: block;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 20px;
+        }
+    }
+    &__input {
+        // display: block;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid $borderInputColorLight;
+        border-radius: 4px;
+        padding: 12px 15px;
+        &::placeholder {
+            font-size: 14px;
+            line-height: 24px;
+            color: $borderInputColorLight;
+        }
+    }
+    &__buttom {
+        position: relative;
+        @include bgButtonColor;
+        @include buttonCards;
+        span,
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            height: 3px;
+            background: #fff;
+            margin-top: -1px;
+        }
+        span {
+            width: 20px;
+        }
+        &::before {
+            width: 14px;
+            transform: translate(4px, -5px) rotate(45deg);
+        }
+        &::after {
+            width: 14px;
+            transform: translate(4px, 4px)rotate(-45deg);
+        }
+    }
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__buttom {
+        @include bgButtonTransparent;
+        @include buttonCards;
     }
 }
 

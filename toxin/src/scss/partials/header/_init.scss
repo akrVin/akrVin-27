@@ -9,7 +9,9 @@
 
     &__sign-in,
     &__register {
-        @include button;
+        @include bgButtonTransparent;
+        padding: 10px 20px;
+        margin: 0px 10px;
     }
 
     &__sign-in {

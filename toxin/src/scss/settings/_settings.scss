@@ -10,6 +10,15 @@ body {
     @include borderCont;
 }
 
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
 
 
 
