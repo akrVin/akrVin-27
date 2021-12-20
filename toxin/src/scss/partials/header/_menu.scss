@@ -34,6 +34,11 @@
     }
 }
 
+.active {
+    font-weight: 700;
+    color: $fontsHeaderColorBlack;
+}
+
 ._arrow {
     @include arrowHeader;
 }
