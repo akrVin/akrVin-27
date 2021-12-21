@@ -6,10 +6,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-}
-
-main {
-    flex: 1 1 auto;
+    min-height: 100%;
 }
 
 ._container {
