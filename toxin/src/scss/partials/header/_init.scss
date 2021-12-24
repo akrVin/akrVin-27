@@ -27,14 +27,22 @@
         border-radius: 50%;
         width: 32px;
         height: 32px;
-        background-image: url(./../img/user-circle.svg);
+        background: transparent;
         transition: all .5s ease;
-        &:hover {
-            background-image: url(./../img/user-circle-hover.svg);
-        }
     }
+}
 
-    ._active-user {
-        background-image: url(./../img/user-circle-hover.svg);
+.icon-user_circle {
+    font-size: 33px;
+    background-color: $colorsFontButton;
+    background-image: $colorsBurger;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover {
+        background-image: $colorsBurgerHover;
     }
+}
+
+._active-user {
+    background-image: $colorsBurgerHover;
 }
