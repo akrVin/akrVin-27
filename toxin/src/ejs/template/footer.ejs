@@ -1,12 +1,9 @@
 <footer class="footer">
     <div class="footer__body _container">
         <div class="footer__content content">
-            <div class="content__columns--big">
-                <div class="content__logo logo">
-                    <a class="logo__link" href="#">
-                        <img class="logo__icon" src="./img/icon_toxin.svg" alt="icon" />
-                        <img class="logo__title" src="./img/text_toxin.svg" alt="title" />
-                    </a>
+            <div class="content__columns">
+                <div class="content__logo">
+                    <%- include('../partials/common/logo') %>
                 </div>
                 <div class="content__text text">
                     <p class="text__content">
@@ -65,7 +62,7 @@
                 </ul>
             </div>
             <div class="content__columns">
-                <h3 class="content__title">Служба поддержки</h3>
+                <h3 class="content__title">служба поддержки</h3>
                 <ul class="content__list">
                     <li class="content__item">
                         <a href="#" class="content__link">
@@ -89,19 +86,25 @@
                     </li>
                 </ul>
             </div>
-            <div class="content__columns--big">
-                <h3 class="content__title">Подписка</h3>
+            <div class="content__columns">
+                <h3 class="content__title">подписка</h3>
                 <div class="content__text--right text">
-                    Получайте специальные предложения и новости сервиса
+                    <p class="text__content">
+                        Получайте специальные предложения и новости сервиса
+                    </p>
                 </div>
                 <form action="" class="content__form">
-                    <input type="email" class="content__form-item">
-                    <button></button>
+                    <input type="email" placeholder="Email" class="content__form-item">
+                    <button class="content__button-item icon-arrow"></button>
                 </form>
             </div>
         </div>
         <div class="footer__copiright copiright">
-            <div class="copiright__text">Copyright © 2018 Toxin отель. Все права защищены.</div>
+            <div class="copiright__text text">
+                <p class="text__copiright">
+                    Copyright © 2018 Toxin отель. Все права защищены.
+                </p>
+            </div>
             <div class="copiright__icons">
                 <ul class="copiright__list">
                     <li class="copiright__item">

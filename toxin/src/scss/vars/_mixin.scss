@@ -2,6 +2,11 @@
     border: 1px solid red;
 }
 
+@mixin containerLogo {
+    width: $widthLogo;
+    height: $heightLogo;
+}
+
 @mixin moncerratBold {
     font-family: Montserrat;
     font-weight: 700;
@@ -78,5 +83,13 @@
     padding: 15px 20px;
 }
 
-
+@mixin iconColor {
+    background-color: $colorsFontButton;
+    background-image: $colorsBurger;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover {
+        background-image: $colorsBurgerHover;
+    }
+}
 

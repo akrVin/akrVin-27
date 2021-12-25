@@ -1,5 +1,7 @@
 @import '_burger';
 
+// ! нужно попоробовать pointer-events: none;
+
 .menu {
     width: 100%;
     flex: 1 1 auto;
@@ -11,7 +13,7 @@
     }
 
     &__item {
-        margin: 0px 5px;
+        margin: 0px 10px;
         &:first-child {
             margin-left: 15px;
         }
@@ -22,7 +24,6 @@
 
     &__link {
         @include fzHeader;
-        padding: 5px;
         color: $fontsHeaderColorLight;
         transition: moncerratBold .3s;
         &:hover {

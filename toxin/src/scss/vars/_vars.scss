@@ -1,9 +1,11 @@
 /*=============COLORS==============*/
 
+$fontsColorBold: rgba(31, 32, 65, 1);
+$fontsColorLight: rgba(31, 32, 65, .5);
 $fontsHeaderColorLight: rgba(31, 32, 65, .5);
 $fontsHeaderColorBlack: rgba(31, 32, 65, .75);
 $borderHeaderColorLight: rgba(31, 32, 65, .1);
-$borderInputColorLight: rgba(31, 32, 65, 0.25);
+$borderInputColorLight: rgba(31, 32, 65, .25);
 $fontsModalColor: rgba(31, 32, 65, 1);
 $colorsButton: linear-gradient(180deg, rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
 $colorsBurger: linear-gradient(90deg, rgba(139, 164, 249, 1), rgba(188, 156, 255, 1));
@@ -24,6 +26,9 @@ $minFontButton: 12px;
 // font-size: calc(10 + 4 * ((100vw - 320px) / (1190px - 320px)));
 
 $widthLogo: 106px;
+$heightLogo: 40px;
+
+$fontSizeIconFonts: 24px;
 
 /*============CONSTANT=============*/
 

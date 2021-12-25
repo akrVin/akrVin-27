@@ -28,19 +28,13 @@
         width: 32px;
         height: 32px;
         background: transparent;
-        transition: all .5s ease;
+        transition: all 0.5s ease-in-out;
     }
 }
 
 .icon-user_circle {
     font-size: 33px;
-    background-color: $colorsFontButton;
-    background-image: $colorsBurger;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    &:hover {
-        background-image: $colorsBurgerHover;
-    }
+    @include iconColor;
 }
 
 ._active-user {
