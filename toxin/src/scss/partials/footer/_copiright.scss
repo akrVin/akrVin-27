@@ -1,0 +1,33 @@
+.copiright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__text {
+        line-height: 17px;
+    }
+
+    &__icons {
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin: 0 0 0 20px;
+    }
+}
+.icon-twitter {
+    font-size: $fontSizeIconFonts;
+    @include iconColor;
+}
+.icon-facebook {
+    font-size: $fontSizeIconFonts;
+    @include iconColor;
+}
+.icon-instagram {
+    font-size: $fontSizeIconFonts;
+    @include iconColor;
+}

@@ -1,0 +1,100 @@
+.content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 100%;
+    &__columns {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 15px;
+        &:first-child,
+        &:last-child {
+            max-width: 260px;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__logo {
+        @include containerLogo;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        
+        &--right {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__title {
+        color: $fontsColorBold;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+    }
+
+    &__item {
+        margin: 0 0 20px 0;
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__link {
+        color: $fontsColorLight;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    &__form-item,
+    &__button-item {
+        max-width: 100%;
+    }
+
+    &__form-item {
+        background: #FFFFFF;
+        border: 1px solid $borderInputColorLight;
+        border-right: none;
+        border-radius: 4px 0 0 4px;
+        padding: 12px 15px;
+        &::placeholder {
+            color: $borderInputColorLight;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &__button-item {
+        background: #FFFFFF;
+        border: 1px solid $borderInputColorLight;
+        border-radius: 0 4px 4px 0;
+        border-left: none;
+        padding: 8px;
+    }
+}
+.text {
+    font-size: 14px;
+    &__content {
+        line-height: 24px;
+    }
+}
+.icon-arrow {
+    @include iconColor;
+    font-size: $fontSizeIconFonts;
+    line-height: 24px
+}
