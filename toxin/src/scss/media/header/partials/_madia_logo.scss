@@ -5,17 +5,14 @@
             max-width: 35px;
             max-height: 35px;
         }
-    
-        // &__title {
-        // }
     }
 }
 
-@mixin maxWidthLogo870 {
-    .logo {
-        min-width: 40px;
-        &__title {
-            display: none;
-        }
-    }
-}
+// @mixin maxWidthLogo870 {
+//     .logo {
+//         min-width: 40px;
+//         &__title {
+//             display: none;
+//         }
+//     }
+// }

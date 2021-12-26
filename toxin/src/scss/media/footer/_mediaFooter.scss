@@ -1,0 +1,17 @@
+@import 'partials/_content-media';
+@import 'partials/_copiright-media';
+
+@media (max-width: 1020px) {
+    @include maxWidthContent1020;
+}
+
+@media (max-width: 992px) {
+    @include maxWidthContent992;
+}
+
+@media (max-width: 767px) {
+    
+}
+
+
+
