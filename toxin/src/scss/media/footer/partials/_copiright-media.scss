@@ -1,0 +1,10 @@
+@mixin maxWidthCopiright767 {
+    .copiright {
+        flex-direction: column;
+        justify-content: flex-start;
+        &__text {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    }
+}

@@ -48,3 +48,24 @@
         font-size: 12px;
     }
 }
+
+@mixin maxWidthContent767 {
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 10px;
+        &__columns {
+            display: none;
+            &:first-child {
+                display: block;
+                
+            }
+        }
+    }
+    .text {
+        display: none;
+    }
+    
+}

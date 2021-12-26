@@ -10,7 +10,17 @@
 }
 
 @media (max-width: 767px) {
-    
+    .footer {
+        @include borderCont;
+        &::after {
+            display: none;
+        }
+        &__body {
+            padding: 120px 0;
+        }
+    }
+    @include maxWidthContent767;
+    @include maxWidthCopiright767;
 }
 
 
